@@ -8,8 +8,8 @@ const API_URL = 'http://127.0.0.1:3000/classes';
 
 describe('Persistent Node Chat Server', () => {
   const dbConnection = mysql.createConnection({
-    user: 'student',
-    password: 'student',
+    user: 'skipdawg3000',
+    password: '',
     database: 'chat',
   });
 
@@ -18,7 +18,7 @@ describe('Persistent Node Chat Server', () => {
 
 
     const tablename = 'messages';
-    
+
     /* Empty the db table before all tests so that multiple tests
      * (or repeated runs of the tests)  will not fail when they should be passing
      * or vice versa */
