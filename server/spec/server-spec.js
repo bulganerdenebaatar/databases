@@ -15,8 +15,6 @@ describe('Persistent Node Chat Server', () => {
 
   beforeAll((done) => {
     dbConnection.connect();
-
-
     const tablename = 'messages';
 
     /* Empty the db table before all tests so that multiple tests
@@ -67,8 +65,8 @@ describe('Persistent Node Chat Server', () => {
   it('Should output all messages from the DB', (done) => {
     // Let's insert a message into the db
 
-    const message = 'Howdy, y\'all!';
-    const roomname = 'lobby';
+    const message = 'Men like you can never change!';
+    const roomname = 'main';
     const queryString =
       'INSERT INTO messages (text, userid, roomname) VALUES (?, ?, ?)';
     const queryArgs = [message, 1, roomname];

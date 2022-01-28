@@ -23,4 +23,8 @@ module.exports = {
       }
     });
   }
+<<<<<<< HEAD
 };
+=======
+  };
+>>>>>>> 64d9cbe2bccf490d5f678ef0b68bb2b0793a8859

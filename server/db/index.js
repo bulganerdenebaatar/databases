@@ -15,6 +15,15 @@ var connection = mysql.createConnection({
   database: 'chat',
 });
 
+<<<<<<< HEAD
+=======
+var connection = mysql.createConnection({
+  user: 'skipdawg3000',
+  password: '',
+  database: 'chat',
+});
+
+>>>>>>> 64d9cbe2bccf490d5f678ef0b68bb2b0793a8859
 connection.connect();
 
 module.exports = connection;
